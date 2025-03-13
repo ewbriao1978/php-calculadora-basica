@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <p> Entre com as parcelas:</p>
+    <form action="calculadora.php" method="POST">
+        <p><label> Entre com a primeira parcela:</label></p>
+        <input type="number" name="par1" required>
+        <p><label> Entre com a segunda parcela:</label></p>
+        <input type="number" name="par2" required>
+        <br>
+        <br>
+
+        <p> Escolha uma das quatro operações: </p>
+        <label>
+            <input type="radio" name="operacao" value="soma" checked > Soma
+        </label>
+        <label>
+            <input type="radio" name="operacao" value="subtracao" > Subtração
+        </label>
+        <label>
+            <input type="radio" name="operacao" value="divisao" > Divisão
+        </label>
+        <label>
+            <input type="radio" name="operacao" value="multiplicacao" > Multiplicação
+        </label>
+        <br>
+        <input type="submit" name="calcular" value="Calcular!">
+
+    </form>
+
+
+    
+    
+</body>
+</html>
