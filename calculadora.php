@@ -1,5 +1,5 @@
 <?php
-
+// exemplo 
 $parcela1=$_POST['par1'];
 $parcela2=$_POST['par2'];
 $operacao=$_POST['operacao'];
